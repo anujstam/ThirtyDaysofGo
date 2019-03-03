@@ -5,4 +5,4 @@ Each day passes all test cases and recieves full points for the challenge. This 
 
 Code is uploaded as and when the challenge is solved (ie usually one problem per day, until the 30 days are done)
 
-Certain days that use object oriented programming do not allow Go to be used. Those problems have been solved using Python3. An attempt with go structs may be made in the future
+Certain days do not allow Go to be used. Those problems have been solved using Python3. A solution with Go has also been made in some cases, but those cannot be submitted online.
