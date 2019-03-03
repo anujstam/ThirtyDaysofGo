@@ -4,6 +4,7 @@ import (
 	"strconv"
 	"fmt"
 	"bufio"
+	"os"
 )
 
 func makeint(s string) int {
