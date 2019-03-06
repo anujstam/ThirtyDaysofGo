@@ -35,9 +35,7 @@ func (p person) yearPasses() person {
 
 func main() {
     var T,age int
-
     fmt.Scan(&T)
-
     for i := 0; i < T; i++ {
         fmt.Scan(&age)
         p := person{age: age}
