@@ -10,7 +10,6 @@ class Calculator(AdvancedArithmetic):
                 s += i
         return s
 
-
 n = int(input())
 my_calculator = Calculator()
 s = my_calculator.divisorSum(n)
