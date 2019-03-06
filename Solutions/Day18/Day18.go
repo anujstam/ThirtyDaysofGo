@@ -57,5 +57,3 @@ func main(){
 		fmt.Printf("Is not a palindrome.\n")
 	}
 }
-
-
