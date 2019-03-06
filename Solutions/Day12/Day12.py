@@ -41,7 +41,6 @@ class Student(Person):
             else:
                 return "D"
 
-
 line = input().split()
 firstName = line[0]
 lastName = line[1]
