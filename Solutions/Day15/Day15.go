@@ -40,6 +40,7 @@ func(list *LinkedList) Display(){
 
 }
 
+
 func NewList() *LinkedList {
 	return &LinkedList{head:nil}
 }
