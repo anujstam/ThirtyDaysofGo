@@ -17,6 +17,7 @@ func makeint(s string) int {
 	}
 }
 
+
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 	text, _ := reader.ReadString('\n')
