@@ -9,8 +9,6 @@ import (
     "strings"
 )
 
-
-
 func main() {
     reader := bufio.NewReaderSize(os.Stdin, 1024 * 1024)
 
