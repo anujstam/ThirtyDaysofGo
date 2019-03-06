@@ -15,8 +15,7 @@ class Student(Person):
     #   lastName - A string denoting the Person's last name.
     #   id - An integer denoting the Person's ID number.
     #   scores - An array of integers denoting the Person's test scores.
-    #
-    # Write your constructor here
+   
     def __init__(self,fname,lname,sid,score):
         super().__init__(fname,lname,sid)
         self.scores = score
@@ -24,8 +23,7 @@ class Student(Person):
 
     #   Function Name: calculate
     #   Return: A character denoting the grade.
-    #
-    # Write your function here
+
     def calculate(self):
         if self.avg in range(90,101):
             return "O"
