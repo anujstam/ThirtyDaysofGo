@@ -30,7 +30,6 @@ func readLine(reader *bufio.Reader) string {
     if err == io.EOF {
         return ""
     }
-
     return strings.TrimRight(string(str), "\r\n")
 }
 
