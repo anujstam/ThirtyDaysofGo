@@ -31,9 +31,7 @@ func main() {
     for i:=0;i<size;i++{
         fmt.Scanf("%d", &arr[i])
     }
-
     arr,swaps = bsort(arr)
-
     fmt.Printf("Array is sorted in %d swaps.\n",swaps)
     fmt.Printf("First Element: %d\n",arr[0])
     fmt.Printf("Last Element: %d\n",arr[size-1])
