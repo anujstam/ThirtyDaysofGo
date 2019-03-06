@@ -27,5 +27,4 @@ func main() {
 	}
 	diff := Difference{arr,0}
 	fmt.Println(diff.ComputeDifference())
-
 }
