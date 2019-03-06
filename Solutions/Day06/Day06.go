@@ -5,7 +5,6 @@ import(
    "os"
 )
 
-
 func stsplit(s string){
     length := len(s)
     for i:=0;i<length;i++{
