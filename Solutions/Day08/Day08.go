@@ -6,7 +6,6 @@ import (
     "io"
 )
 
-
 func givenumber(input io.Reader) error {
     var phoneNum int
     fmt.Scan(&phoneNum)
