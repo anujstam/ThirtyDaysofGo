@@ -9,11 +9,8 @@ import (
     "strings"
 )
 
-
-
 func main() {
     reader := bufio.NewReaderSize(os.Stdin, 1024 * 1024)
-
     NTemp, err := strconv.ParseInt(readLine(reader), 10, 64)
     checkError(err)
     N := int32(NTemp)
