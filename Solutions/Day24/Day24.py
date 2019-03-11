@@ -35,7 +35,6 @@ class Solution:
                 temp = temp.next
             return head
 
-
 mylist= Solution()
 T=int(input())
 head=None
